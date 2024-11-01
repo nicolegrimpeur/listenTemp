@@ -10,6 +10,7 @@ Ce projet node vise à récupérer la température sur un serveur Ubuntu Server,
 - npm
 - Ubuntu Server
 - Le package lm-sensors
+- Pour le HDD, le package smartmontools
 
 ## Utilisation 
 
@@ -24,3 +25,9 @@ Le code à rajouter dans la configuration Prometheus :
 ```
 
 Un exemple de dashboard réalisé avec Grafana peut être trouvé dans le fichier "dashboard_grafana.json".
+
+## Différentes versions
+
+- index.js : Récupère la température du CPU dans le cas d'un seul CPU
+- indexV2.js : Récupère la température du CPU dans le cas de plusieurs CPU
+- indexV3.js : Récupère la température du CPU dans le cas d'un seul CPU, mais aussi la température du HDD
