@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet node vise à récupérer la température sur un serveur Ubuntu Server, et de la resortir sur un serveur Web node.
+Ce projet node vise à récupérer la température sur un serveur Ubuntu Server, et de la ressortir sur un serveur Web node.
 
 ## Préréquis
 
