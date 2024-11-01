@@ -1,12 +1,12 @@
 {
   "name": "listentemp",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "## Description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Nicolas BARRAT",
   "license": "ISC",
   "type": "module"
 }
