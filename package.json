@@ -8,5 +8,8 @@
   },
   "author": "Nicolas BARRAT",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
 }
